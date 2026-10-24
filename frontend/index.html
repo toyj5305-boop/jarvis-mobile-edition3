@@ -1,1 +1,80 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000"><title>J.A.R.V.I.S | Mobile Edition</title>
 
+<link rel="stylesheet" href="style.css">
+
+</head><body><header>
+    <h1>J.A.R.V.I.S</h1>
+    <p>MOBILE EDITION</p>
+</header>
+
+<main>
+    <section class="core-section">
+        <div class="core">
+            <div class="ring r1"></div>
+            <div class="ring r2"></div>
+            <div class="center"></div>
+        </div>
+
+        <p class="core-text">CORE ACTIVE</p>
+    </section>
+
+    <section class="status">
+        <h2>SYSTEM STATUS</h2>
+
+        <div class="row">
+            <span>AI CORE</span>
+            <b class="on">● ONLINE</b>
+        </div>
+
+        <div class="row">
+            <span>INTERFACE</span>
+            <b class="on">● ONLINE</b>
+        </div>
+
+        <div class="row">
+            <span>VOICE</span>
+            <b class="off">○ NOT CONNECTED</b>
+        </div>
+
+        <div class="row">
+            <span>REAL AI</span>
+            <b class="off">○ NOT CONNECTED</b>
+        </div>
+    </section>
+
+    <section class="assistant">
+        <h2>ASSISTANT TERMINAL</h2>
+
+        <div class="chat" id="chat" aria-live="polite">
+            <div class="msg ai">
+                J.A.R.V.I.S: Hello, Boss! System interface ready.
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input
+                type="text"
+                id="msg"
+                placeholder="Ask J.A.R.V.I.S..."
+                autocomplete="off"
+                aria-label="Enter your message"
+            >
+
+            <button id="send" type="button">SEND</button>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>J.A.R.V.I.S MOBILE SYSTEM</p>
+    <p>PERSONAL ASSISTANT INTERFACE</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
